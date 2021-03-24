@@ -1,0 +1,15 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "description": "this is a node demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node server.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
