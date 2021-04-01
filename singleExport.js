@@ -1,4 +1,4 @@
-const singleModule() {
+const singleModule = () => {
   console.log('this is my module')
 }
 
