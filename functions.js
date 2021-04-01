@@ -11,20 +11,23 @@ const newSquare = function(x) {
 
 console.log(newSquare(3))
 
-const newSyntaxtSquare = (x) => {
+const newSyntaxSquare = (x) => {
   return x * x;
 }
+// what happens if we get rid of the {} ? any difference?
+const implicitReturnSq = (x) => x * x;
 
-console.log(newSyntaxtSquare(3))
 
+console.log(newSyntaxSquare(3))
+console.log(implicitReturnSq(9))
 // ANONYMOUS FUNCTIONS
 
-funcion(el, idx) {
+f1 = function(el, idx) {
   el.style.color = red;
   el.id = idx;
 }
 
-(el, idx) => {
+f2 = (el, idx) => {
   el.style.color = red;
   el.id = idx;
 }
