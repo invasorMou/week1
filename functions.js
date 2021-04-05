@@ -3,7 +3,7 @@ function oldSquare(x) {
   return x * x;
 }
 
-console.log(oldSquare(4))
+console.log(oldSquare(5))
 
 const newSquare = function(x) {
   return x * x;
@@ -15,7 +15,7 @@ const newSyntaxSquare = (x) => {
   return x * x;
 }
 // what happens if we get rid of the {} ? any difference?
-const implicitReturnSq = (x) => x * x;
+const implicitReturnSq = x => x * x
 
 
 console.log(newSyntaxSquare(3))
@@ -31,3 +31,10 @@ f2 = (el, idx) => {
   el.style.color = red;
   el.id = idx;
 }
+function hiClass({greeting, nameOfClass}){
+  console.log(greeting, nameOfClass)
+}
+hiClass({nameOfClass: "MERN class", greeting: "hello"})
+
+
+
